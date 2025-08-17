@@ -23,4 +23,5 @@ jobs:
         with:
           push: true
           tags: ruvindunilnuwan/healthcheck-app:latest
+                ruvindunilnuwan/healthcheck-app:${{ github.sha }}
 
