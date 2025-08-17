@@ -22,6 +22,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ruvindunilnuwan/healthcheck-app:latest
-                ruvindunilnuwan/healthcheck-app:${{ github.sha }}
+          tags: |
+            ruvindunilnuwan/healthcheck-app:latest
+            ruvindunilnuwan/healthcheck-app:${{ github.sha }}
 
